@@ -1,0 +1,22 @@
+Algoritmo programa
+	Imprimir "Bienvenido, por favor ingrese su año de nacimiento"
+	Leer FNCM
+	edad = 2024 - FNCM
+	escribir "Su edad actual es: ",edad " " "años" 
+	SI edad >=18 y edad <=55 Entonces 
+		Escribir "Usuario válido, bienvenido"
+	SiNo
+		Si 18 > edad Entonces
+			Escribir "Lo sentimos, usuario invalido"
+		SiNo
+			Si edad >= 55 Entonces
+				Escribir "Lo sentimos, usuario invalido"
+			SiNo
+			Si edad <=0 o edad >=99 Entonces
+				Escribir "Lo sentimos, usuario incorrecto"
+			Fin Si
+		Fin Si
+	FinSi
+FinSi
+	Escribir "Tenga un bonito día"
+FinAlgoritmo

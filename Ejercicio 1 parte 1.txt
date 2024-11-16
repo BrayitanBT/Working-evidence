@@ -1,0 +1,28 @@
+Algoritmo clasificación
+	escribir "Bienvenido al clasificador de tornillos" ", " "por favor ingrese un tamaño"
+	Leer Lol
+	Si Lol >=1 y Lol <=3  Entonces
+		escribir "Tornillo clasificado como pequeño"
+	SiNo
+		Si Lol <1 Entonces
+			escribir "El tamaño ingresado no es válido"
+		SiNo
+		Si Lol >3 y Lol <=5 Entonces
+			escribir "Tornillo clasificado como mediano"
+		SiNo
+			Si Lol >5 y Lol <=6.5 Entonces
+				escribir "Tornillo clasificado como grande"
+			SiNo
+				Si Lol >6.5 y Lol <=8.5 Entonces
+					escribir "Tornillo clasificado como muy grande"
+				SiNo
+					Si Lol >8.5 Entonces
+						escribir "Tornillo clasificado como gigante"
+					Fin Si
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+	Fin Si
+	Escribir "Tenga bonito día"
+FinAlgoritmo
